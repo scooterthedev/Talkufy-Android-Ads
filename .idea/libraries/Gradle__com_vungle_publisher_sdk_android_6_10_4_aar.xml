@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.vungle:publisher-sdk-android:6.10.4@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bc58db16b78808f58a55c2d3fe70d109/transformed/jetified-publisher-sdk-android-6.10.4/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/bc58db16b78808f58a55c2d3fe70d109/transformed/jetified-publisher-sdk-android-6.10.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bc58db16b78808f58a55c2d3fe70d109/transformed/jetified-publisher-sdk-android-6.10.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/bc58db16b78808f58a55c2d3fe70d109/transformed/jetified-publisher-sdk-android-6.10.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.vungle/publisher-sdk-android/6.10.4/f4447098cc57b9a48d161dd2af4793dc247e1a96/publisher-sdk-android-6.10.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

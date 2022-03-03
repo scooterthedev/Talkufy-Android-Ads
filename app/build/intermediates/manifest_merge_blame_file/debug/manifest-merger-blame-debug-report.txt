@@ -1,0 +1,974 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="ca.scooter.talkufy"
+4    android:versionCode="4"
+5    android:versionName="1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functional
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:10:5-78
+15-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+16-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:11:5-75
+16-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:11:22-73
+17    <uses-permission android:name="android.permission.READ_CONTACTS" />
+17-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:12:5-71
+17-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:12:22-69
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:13:5-79
+18-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:13:22-77
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:14:5-80
+19-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:14:22-78
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:15:5-66
+20-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:15:22-64
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:16:5-78
+21-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:16:22-76
+22    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+22-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:17:5-80
+22-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:17:22-78
+23    <uses-permission android:name="android.permission.VIBRATE" />
+23-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:18:5-65
+23-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:18:22-63
+24    <uses-permission android:name="android.permission.CALL_PHONE" />
+24-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:19:5-68
+24-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:19:22-66
+25    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+25-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:20:5-74
+25-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:20:22-72
+26    <uses-permission android:name="android.permission.INSTALL_SHORTCUT" />
+26-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:21:5-74
+26-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:21:22-72
+27    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+27-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:22:5-70
+27-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:22:22-68
+28    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+28-->[com.vungle:publisher-sdk-android:6.10.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\bc58db16b78808f58a55c2d3fe70d109\transformed\jetified-publisher-sdk-android-6.10.4\AndroidManifest.xml:14:5-76
+28-->[com.vungle:publisher-sdk-android:6.10.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\bc58db16b78808f58a55c2d3fe70d109\transformed\jetified-publisher-sdk-android-6.10.4\AndroidManifest.xml:14:22-73
+29    <uses-permission android:name="android.permission.BLUETOOTH" />
+29-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:10:5-68
+29-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:10:22-65
+30    <uses-permission android:name="android.permission.CAMERA" />
+30-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:11:5-65
+30-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:11:22-62
+31    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+31-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:13:5-75
+31-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:13:22-72
+32    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+32-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:14:5-80
+32-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:14:22-77
+33    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+33-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:16:5-78
+33-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:16:22-75
+34    <uses-permission android:name="android.permission.WAKE_LOCK" />
+34-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:17:5-68
+34-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:17:22-65
+35    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+35-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:19:5-77
+35-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:19:22-74
+36
+37    <uses-feature
+37-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:21:5-23:35
+38        android:glEsVersion="0x00020000"
+38-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:22:9-41
+39        android:required="true" />
+39-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:23:9-32
+40    <uses-feature
+40-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:24:5-26:36
+41        android:name="android.hardware.camera"
+41-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:25:9-47
+42        android:required="false" />
+42-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:26:9-33
+43    <uses-feature
+43-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:27:5-29:36
+44        android:name="android.hardware.camera.autofocus"
+44-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:28:9-57
+45        android:required="false" />
+45-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:29:9-33
+46
+47    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+47-->[com.facebook.react:react-native-calendar-events:2.0.0-jitsi-4429568] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b5cc8b6038c4cec50f76d4f7597d105b\transformed\jetified-react-native-calendar-events-2.0.0-jitsi-4429568\AndroidManifest.xml:11:5-73
+47-->[com.facebook.react:react-native-calendar-events:2.0.0-jitsi-4429568] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b5cc8b6038c4cec50f76d4f7597d105b\transformed\jetified-react-native-calendar-events-2.0.0-jitsi-4429568\AndroidManifest.xml:11:22-70
+48    <uses-permission android:name="android.permission.READ_CALENDAR" />
+48-->[com.facebook.react:react-native-calendar-events:2.0.0-jitsi-4429568] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b5cc8b6038c4cec50f76d4f7597d105b\transformed\jetified-react-native-calendar-events-2.0.0-jitsi-4429568\AndroidManifest.xml:12:5-72
+48-->[com.facebook.react:react-native-calendar-events:2.0.0-jitsi-4429568] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b5cc8b6038c4cec50f76d4f7597d105b\transformed\jetified-react-native-calendar-events-2.0.0-jitsi-4429568\AndroidManifest.xml:12:22-69
+49
+50    <queries>
+50-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e619792c905585fabbf02d824f549f30\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:30:5-34:15
+51
+52        <!-- Needs to be explicitly declared on Android R+ -->
+53        <package android:name="com.google.android.apps.maps" />
+53-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e619792c905585fabbf02d824f549f30\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
+53-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e619792c905585fabbf02d824f549f30\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
+54    </queries>
+55
+56    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+56-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5739e8770cdb51d23f29034bb65cbfdf\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:26:5-110
+56-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5739e8770cdb51d23f29034bb65cbfdf\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:26:22-107
+57    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+57-->[com.google.android.gms:play-services-ads-identifier:18.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\cac5754d783374ed9bc6bef0935e46bb\transformed\jetified-play-services-ads-identifier-18.0.1\AndroidManifest.xml:23:5-79
+57-->[com.google.android.gms:play-services-ads-identifier:18.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\cac5754d783374ed9bc6bef0935e46bb\transformed\jetified-play-services-ads-identifier-18.0.1\AndroidManifest.xml:23:22-76
+58    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+58-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3366c8591bc8aa85e320481691cf3a3f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:5-82
+58-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3366c8591bc8aa85e320481691cf3a3f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:25:22-79
+59
+60    <application
+60-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:24:5-201:19
+61        android:allowBackup="true"
+61-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:15:9-35
+62        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+62-->[androidx.core:core:1.7.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\b00482fae6f8a058d616fd42b53e547c\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+63        android:debuggable="true"
+64        android:hardwareAccelerated="true"
+64-->[com.vungle:publisher-sdk-android:6.10.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\bc58db16b78808f58a55c2d3fe70d109\transformed\jetified-publisher-sdk-android-6.10.4\AndroidManifest.xml:17:9-43
+65        android:icon="@mipmap/ic_launcher"
+65-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:25:9-43
+66        android:label="@string/app_name"
+66-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:26:9-41
+67        android:largeHeap="true"
+67-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:27:9-33
+68        android:roundIcon="@mipmap/ic_launcher"
+68-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:28:9-48
+69        android:supportsRtl="true"
+69-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:29:9-35
+70        android:testOnly="true"
+71        android:theme="@style/AppTheme" >
+71-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:30:9-40
+72        <activity
+72-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:32:9-34:38
+73            android:name="ca.scooter.talkufy.activities.Updates"
+73-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:33:13-47
+74            android:exported="true" />
+74-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:34:13-36
+75        <activity
+75-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:37:9-46:20
+76            android:name="ca.scooter.talkufy.BeginingSplashScreen"
+76-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:38:13-49
+77            android:exported="true" >
+77-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:39:13-36
+78            <intent-filter>
+78-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:41:13-45:29
+79                <action android:name="android.intent.action.MAIN" />
+79-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:42:17-68
+79-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:42:25-66
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:44:17-76
+81-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:44:27-74
+82            </intent-filter>
+83        </activity>
+84        <activity
+84-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:47:9-54:34
+85            android:name="ca.scooter.talkufy.jitsi_sdk.JitsiMeetActivity"
+85-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:48:13-56
+86            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+86-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:49:13-115
+87            android:launchMode="singleTask"
+87-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:50:13-44
+88            android:resizeableActivity="true"
+88-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:51:13-46
+89            android:supportsPictureInPicture="true"
+89-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:52:13-52
+90            android:windowSoftInputMode="adjustResize" />
+90-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:53:13-55
+91        <activity android:name="ca.scooter.talkufy.jitsi_sdk.JitsiMeetFragment" />
+91-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:55:9-57:44
+91-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:56:13-56
+92        <activity android:name="ca.scooter.talkufy.activities.CreateGroupActivity" />
+92-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:58:9-67
+92-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:58:19-65
+93        <activity android:name="ca.scooter.talkufy.activities.CreateChannelActivity" />
+93-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:59:9-69
+93-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:59:19-67
+94        <activity android:name="ca.scooter.talkufy.activities.IncomingCallActivity" />
+94-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:60:9-68
+94-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:60:19-66
+95        <activity android:name="ca.scooter.talkufy.activities.OutgoingCallActivity" />
+95-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:61:9-68
+95-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:61:19-66
+96        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
+96-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:62:9-84
+96-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:62:19-82
+97        <activity android:name="ca.scooter.talkufy.activities.SplashActivity" />
+97-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:63:9-62
+97-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:63:19-60
+98        <!-- <activity -->
+99        <!-- android:name=".activities.SplashActivity" -->
+100        <!-- android:roundIcon="@drawable/ic_play_black" -->
+101        <!-- android:theme="@style/AppTheme.NoActionBar"/> -->
+102        <activity android:name="ca.scooter.talkufy.activities.SettingsActivity" />
+102-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:68:9-64
+102-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:68:19-62
+103        <activity android:name="ca.scooter.talkufy.activities.BlockListActivity" />
+103-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:69:9-65
+103-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:69:19-63
+104        <activity
+104-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:70:9-100:20
+105            android:name="ca.scooter.talkufy.activities.ForwardActivity"
+105-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:71:13-55
+106            android:exported="true"
+106-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:72:13-36
+107            android:launchMode="singleTop"
+107-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:73:13-43
+108            android:theme="@style/AppTheme.NoActionBar" >
+108-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:74:13-56
+109            <intent-filter>
+109-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:75:13-81:29
+110                <action android:name="android.intent.action.SEND" />
+110-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:76:17-68
+110-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:76:25-66
+111
+112                <category android:name="android.intent.category.DEFAULT" />
+112-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:17-75
+112-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:27-73
+113
+114                <data android:mimeType="text/plain" />
+114-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:17-54
+114-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:23-52
+115            </intent-filter>
+116            <intent-filter>
+116-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:82:13-88:29
+117                <action android:name="android.intent.action.SEND" />
+117-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:76:17-68
+117-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:76:25-66
+118
+119                <category android:name="android.intent.category.DEFAULT" />
+119-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:17-75
+119-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:27-73
+120
+121                <data android:mimeType="image/*" />
+121-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:17-54
+121-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:23-52
+122            </intent-filter>
+123            <intent-filter>
+123-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:89:13-95:29
+124                <action android:name="android.intent.action.SEND" />
+124-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:76:17-68
+124-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:76:25-66
+125
+126                <category android:name="android.intent.category.DEFAULT" />
+126-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:17-75
+126-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:27-73
+127
+128                <data android:mimeType="video/*" />
+128-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:17-54
+128-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:23-52
+129            </intent-filter>
+130
+131            <meta-data
+131-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:97:13-99:61
+132                android:name="android.service.chooser.chooser_target_service"
+132-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:98:17-78
+133                android:value=".ShareIntentChooserService" />
+133-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:99:17-59
+134        </activity>
+135        <activity
+135-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:101:9-105:42
+136            android:name="ca.scooter.talkufy.activities.UserProfileActivity"
+136-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:102:13-59
+137            android:label="@string/title_activity_user_profile"
+137-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:103:13-64
+138            android:theme="@style/AppTheme.NoActionBar.Translucent" />
+138-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:104:13-68
+139        <!--
+140             The API key for Google Maps-based APIs is defined as a string resource.
+141             (See the file "res/values/google_maps_api.xml").
+142             Note that the API key is linked to the encryption key used to sign the APK.
+143             You need a different API key for each encryption key, including the release key that is used to
+144             sign the APK for publishing.
+145             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+146        -->
+147        <meta-data
+147-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:114:9-116:54
+148            android:name="com.google.android.geo.API_KEY"
+148-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:115:13-58
+149            android:value="@string/google_maps_key" />
+149-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:116:13-52
+150
+151        <activity
+151-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:118:9-122:42
+152            android:name="ca.scooter.talkufy.activities.MapsActivity"
+152-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:119:13-52
+153            android:label="@string/title_activity_maps"
+153-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:120:13-56
+154            android:theme="@style/AppTheme.NoActionBar" />
+154-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:121:13-56
+155        <activity
+155-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:123:9-127:58
+156            android:name="ca.scooter.talkufy.activities.HomeActivity"
+156-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:124:13-52
+157            android:label="@string/app_name"
+157-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:125:13-45
+158            android:launchMode="singleTop"
+158-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:126:13-43
+159            android:theme="@style/AppTheme.NoActionBar" />
+159-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:127:13-56
+160        <activity
+160-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:128:9-130:58
+161            android:name="ca.scooter.talkufy.activities.MessageActivity"
+161-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:129:13-55
+162            android:theme="@style/AppTheme.NoActionBar" />
+162-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:130:13-56
+163        <activity
+163-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:131:9-134:54
+164            android:name="ca.scooter.talkufy.activities.MobileLoginActivity"
+164-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:132:13-59
+165            android:theme="@style/AppTheme.NoActionBar"
+165-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:133:13-56
+166            android:windowSoftInputMode="adjustPan" />
+166-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:134:13-52
+167        <activity android:name="ca.scooter.talkufy.activities.ContactsActivity" /> <!-- Provider for the library -->
+167-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:135:9-64
+167-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:135:19-62
+168        <provider
+168-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:136:9-146:20
+169            android:name="androidx.core.content.FileProvider"
+169-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:137:13-62
+170            android:authorities="com.mvc.imagepicker.provider"
+170-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:138:13-63
+171            android:exported="false"
+171-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:139:13-37
+172            android:grantUriPermissions="true" >
+172-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:140:13-47
+173            <meta-data
+173-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:142:13-145:51
+174                android:name="android.support.FILE_PROVIDER_PATHS"
+174-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:143:17-67
+175                android:resource="@xml/provider_paths" />
+175-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:144:17-55
+176        </provider>
+177
+178        <activity
+178-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:148:9-150:58
+179            android:name="ca.scooter.talkufy.activities.UploadPreviewActivity"
+179-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:149:13-61
+180            android:theme="@style/AppTheme.NoActionBar" />
+180-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:150:13-56
+181        <activity android:name="ca.scooter.talkufy.activities.EditProfile" />
+181-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:151:9-59
+181-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:151:19-57
+182        <activity
+182-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:152:9-154:58
+183            android:name="ca.scooter.talkufy.activities.ImagePreviewActivity"
+183-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:153:13-60
+184            android:theme="@style/AppTheme.NoActionBar" />
+184-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:154:13-56
+185        <activity
+185-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:155:9-157:58
+186            android:name="ca.scooter.talkufy.activities.AboutTheDeveloperActivity"
+186-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:156:13-65
+187            android:theme="@style/AppTheme.NoActionBar" />
+187-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:157:13-56
+188        <activity android:name="ca.scooter.talkufy.activities.MultiContactChooserActivity" />
+188-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:158:9-75
+188-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:158:19-73
+189        <activity android:name="ca.scooter.talkufy.activities.FeedbackActivity" />
+189-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:159:9-64
+189-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:159:19-62
+190
+191        <service
+191-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:161:9-167:19
+192            android:name="ca.scooter.talkufy.firebase.MessagingService"
+192-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:162:13-54
+193            android:exported="false" >
+193-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:163:13-37
+194            <intent-filter>
+194-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:164:13-166:29
+195                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+195-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:165:17-77
+195-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:165:25-75
+196            </intent-filter>
+197        </service>
+198        <!--
+199 Set custom default icon. This is used when no icon is set for incoming notification messages.
+200     See README(https://goo.gl/l4GJaQ) for more.
+201        -->
+202        <meta-data
+202-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:172:9-174:53
+203            android:name="com.google.firebase.messaging.default_notification_icon"
+203-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:173:13-83
+204            android:resource="@mipmap/ic_launcher" />
+204-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:174:13-51
+205        <!--
+206 Set color used with incoming notification messages. This is used when no color is set for the incoming
+207             notification message. See README(https://goo.gl/6BKBk7) for more.
+208        -->
+209        <meta-data
+209-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:179:9-181:52
+210            android:name="com.google.firebase.messaging.default_notification_color"
+210-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:180:13-84
+211            android:resource="@color/colorAccent" />
+211-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:181:13-50
+212
+213        <service
+213-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:183:9-192:19
+214            android:name="ca.scooter.talkufy.utils.ShareIntentChooserService"
+214-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:184:13-60
+215            android:exported="true"
+215-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:185:13-36
+216            android:label="@string/app_name"
+216-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:186:13-45
+217            android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE" >
+217-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:187:13-80
+218            <intent-filter>
+218-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:189:13-191:29
+219                <action android:name="android.service.chooser.ChooserTargetService" />
+219-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:190:17-86
+219-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:190:25-84
+220            </intent-filter>
+221        </service>
+222
+223        <receiver
+223-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:194:9-200:20
+224            android:name="ca.scooter.talkufy.broadcast_services.PhoneStateBroadcastReciever"
+224-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:195:13-75
+225            android:exported="true" >
+225-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:196:13-36
+226            <intent-filter>
+226-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:197:13-199:29
+227                <action android:name="android.intent.action.PHONE_STATE" />
+227-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:198:17-75
+227-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:198:25-73
+228            </intent-filter>
+229        </receiver>
+230
+231        <activity
+231-->[com.vungle:publisher-sdk-android:6.10.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\bc58db16b78808f58a55c2d3fe70d109\transformed\jetified-publisher-sdk-android-6.10.4\AndroidManifest.xml:19:9-23:74
+232            android:name="com.vungle.warren.ui.VungleActivity"
+232-->[com.vungle:publisher-sdk-android:6.10.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\bc58db16b78808f58a55c2d3fe70d109\transformed\jetified-publisher-sdk-android-6.10.4\AndroidManifest.xml:20:13-63
+233            android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+233-->[com.vungle:publisher-sdk-android:6.10.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\bc58db16b78808f58a55c2d3fe70d109\transformed\jetified-publisher-sdk-android-6.10.4\AndroidManifest.xml:21:13-113
+234            android:launchMode="singleTop"
+234-->[com.vungle:publisher-sdk-android:6.10.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\bc58db16b78808f58a55c2d3fe70d109\transformed\jetified-publisher-sdk-android-6.10.4\AndroidManifest.xml:22:13-43
+235            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+235-->[com.vungle:publisher-sdk-android:6.10.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\bc58db16b78808f58a55c2d3fe70d109\transformed\jetified-publisher-sdk-android-6.10.4\AndroidManifest.xml:23:13-71
+236
+237        <provider
+237-->[com.vungle:publisher-sdk-android:6.10.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\bc58db16b78808f58a55c2d3fe70d109\transformed\jetified-publisher-sdk-android-6.10.4\AndroidManifest.xml:25:9-28:40
+238            android:name="com.vungle.warren.utility.VungleProvider"
+238-->[com.vungle:publisher-sdk-android:6.10.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\bc58db16b78808f58a55c2d3fe70d109\transformed\jetified-publisher-sdk-android-6.10.4\AndroidManifest.xml:26:13-68
+239            android:authorities="ca.scooter.talkufy.vungle-provider"
+239-->[com.vungle:publisher-sdk-android:6.10.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\bc58db16b78808f58a55c2d3fe70d109\transformed\jetified-publisher-sdk-android-6.10.4\AndroidManifest.xml:27:13-67
+240            android:exported="false" />
+240-->[com.vungle:publisher-sdk-android:6.10.4] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\bc58db16b78808f58a55c2d3fe70d109\transformed\jetified-publisher-sdk-android-6.10.4\AndroidManifest.xml:28:13-37
+241
+242        <activity
+242-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:17:9-20:57
+243            android:name="com.vincent.filepicker.activity.ImagePickActivity"
+243-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:18:13-77
+244            android:screenOrientation="portrait"
+244-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:19:13-49
+245            android:theme="@style/vw_FilePickerTheme" />
+245-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:20:13-54
+246        <activity
+246-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:21:9-25:57
+247            android:name="com.vincent.filepicker.activity.ImageBrowserActivity"
+247-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:22:13-80
+248            android:hardwareAccelerated="false"
+248-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:23:13-48
+249            android:screenOrientation="portrait"
+249-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:24:13-49
+250            android:theme="@style/vw_FilePickerTheme" />
+250-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:25:13-54
+251        <activity
+251-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:26:9-29:57
+252            android:name="com.vincent.filepicker.activity.VideoPickActivity"
+252-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:27:13-77
+253            android:screenOrientation="portrait"
+253-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:28:13-49
+254            android:theme="@style/vw_FilePickerTheme" />
+254-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:29:13-54
+255        <activity
+255-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:30:9-33:57
+256            android:name="com.vincent.filepicker.activity.AudioPickActivity"
+256-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:31:13-77
+257            android:screenOrientation="portrait"
+257-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:32:13-49
+258            android:theme="@style/vw_FilePickerTheme" />
+258-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:33:13-54
+259        <activity
+259-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:34:9-37:57
+260            android:name="com.vincent.filepicker.activity.NormalFilePickActivity"
+260-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:35:13-82
+261            android:screenOrientation="portrait"
+261-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:36:13-49
+262            android:theme="@style/vw_FilePickerTheme" />
+262-->[com.vincent.filepicker:MultiTypeFilePicker:1.0.8] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2b36d28ee479a5b5327537d6973e60c6\transformed\jetified-MultiTypeFilePicker-1.0.8\AndroidManifest.xml:37:13-54
+263        <activity
+263-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:35:9-42:20
+264            android:name="org.jitsi.meet.sdk.JitsiMeetActivity"
+264-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:36:13-64
+265            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+265-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:37:13-115
+266            android:launchMode="singleTask"
+266-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:38:13-44
+267            android:resizeableActivity="true"
+267-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:39:13-46
+268            android:supportsPictureInPicture="true"
+268-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:40:13-52
+269            android:windowSoftInputMode="adjustResize" >
+269-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:41:13-55
+270        </activity>
+271        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+271-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:43:9-86
+271-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:43:19-83
+272
+273        <service
+273-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:45:9-51:19
+274            android:name="org.jitsi.meet.sdk.ConnectionService"
+274-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:46:13-64
+275            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" >
+275-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:47:13-84
+276            <intent-filter>
+276-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:48:13-50:29
+277                <action android:name="android.telecom.ConnectionService" />
+277-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:49:17-76
+277-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:49:25-73
+278            </intent-filter>
+279        </service>
+280        <service android:name="org.jitsi.meet.sdk.JitsiMeetOngoingConferenceService" />
+280-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:52:9-88
+280-->[org.jitsi.react:jitsi-meet-sdk:2.9.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\ddbce1bf2ef68be20bc29a809c8ed2cc\transformed\jetified-jitsi-meet-sdk-2.9.0\AndroidManifest.xml:52:18-85
+281
+282        <activity
+282-->[pub.devrel:easypermissions:0.3.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\46e23246d55c6e8dda1a2d773a80c78d\transformed\jetified-easypermissions-0.3.0\AndroidManifest.xml:12:9-16:66
+283            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+283-->[pub.devrel:easypermissions:0.3.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\46e23246d55c6e8dda1a2d773a80c78d\transformed\jetified-easypermissions-0.3.0\AndroidManifest.xml:13:13-86
+284            android:exported="false"
+284-->[pub.devrel:easypermissions:0.3.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\46e23246d55c6e8dda1a2d773a80c78d\transformed\jetified-easypermissions-0.3.0\AndroidManifest.xml:14:13-37
+285            android:label=""
+285-->[pub.devrel:easypermissions:0.3.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\46e23246d55c6e8dda1a2d773a80c78d\transformed\jetified-easypermissions-0.3.0\AndroidManifest.xml:15:13-29
+286            android:theme="@style/EasyPermissions.Transparent" />
+286-->[pub.devrel:easypermissions:0.3.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\46e23246d55c6e8dda1a2d773a80c78d\transformed\jetified-easypermissions-0.3.0\AndroidManifest.xml:16:13-63
+287
+288        <provider
+288-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2a4ae7455c20b7a88f9752a4801f1d95\transformed\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:12:9-20:20
+289            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+289-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2a4ae7455c20b7a88f9752a4801f1d95\transformed\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:13:13-83
+290            android:authorities="ca.scooter.talkufy.fileprovider"
+290-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2a4ae7455c20b7a88f9752a4801f1d95\transformed\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:14:13-64
+291            android:exported="false"
+291-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2a4ae7455c20b7a88f9752a4801f1d95\transformed\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:15:13-37
+292            android:grantUriPermissions="true" >
+292-->[com.facebook.react:react-native-webview:7.4.1-jitsi-4429568] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2a4ae7455c20b7a88f9752a4801f1d95\transformed\jetified-react-native-webview-7.4.1-jitsi-4429568\AndroidManifest.xml:16:13-47
+293            <meta-data
+293-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:142:13-145:51
+294                android:name="android.support.FILE_PROVIDER_PATHS"
+294-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:143:17-67
+295                android:resource="@xml/file_provider_paths" />
+295-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:144:17-55
+296        </provider>
+297
+298        <activity
+298-->[gun0912.ted:tedpermission:2.2.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9172b652206e0db5322b9bd34d35af9e\transformed\jetified-tedpermission-2.2.2\AndroidManifest.xml:10:9-14:67
+299            android:name="com.gun0912.tedpermission.TedPermissionActivity"
+299-->[gun0912.ted:tedpermission:2.2.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9172b652206e0db5322b9bd34d35af9e\transformed\jetified-tedpermission-2.2.2\AndroidManifest.xml:11:13-75
+300            android:configChanges="mcc|mnc|locale|keyboard|keyboardHidden|screenLayout|fontScale|uiMode|orientation|screenSize|layoutDirection"
+300-->[gun0912.ted:tedpermission:2.2.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9172b652206e0db5322b9bd34d35af9e\transformed\jetified-tedpermission-2.2.2\AndroidManifest.xml:12:13-144
+301            android:screenOrientation="unspecified"
+301-->[gun0912.ted:tedpermission:2.2.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9172b652206e0db5322b9bd34d35af9e\transformed\jetified-tedpermission-2.2.2\AndroidManifest.xml:13:13-52
+302            android:theme="@style/Theme.Transparent.Permission" /> <!-- Needs to be explicitly declared on P+ -->
+302-->[gun0912.ted:tedpermission:2.2.2] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9172b652206e0db5322b9bd34d35af9e\transformed\jetified-tedpermission-2.2.2\AndroidManifest.xml:14:13-64
+303        <uses-library
+303-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e619792c905585fabbf02d824f549f30\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+304            android:name="org.apache.http.legacy"
+304-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e619792c905585fabbf02d824f549f30\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
+305            android:required="false" />
+305-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\e619792c905585fabbf02d824f549f30\transformed\jetified-play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+306
+307        <service
+307-->[com.google.firebase:firebase-ml-natural-language-smart-reply-model:19.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3067a53bfbd2673bf1ad8e58ae1bd089\transformed\jetified-firebase-ml-natural-language-smart-reply-model-19.0.0\AndroidManifest.xml:23:9-32:19
+308            android:name="com.google.android.gms.predictondevice.service.PredictOnDeviceFallbackService"
+308-->[com.google.firebase:firebase-ml-natural-language-smart-reply-model:19.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3067a53bfbd2673bf1ad8e58ae1bd089\transformed\jetified-firebase-ml-natural-language-smart-reply-model-19.0.0\AndroidManifest.xml:24:13-105
+309            android:enabled="true"
+309-->[com.google.firebase:firebase-ml-natural-language-smart-reply-model:19.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3067a53bfbd2673bf1ad8e58ae1bd089\transformed\jetified-firebase-ml-natural-language-smart-reply-model-19.0.0\AndroidManifest.xml:25:13-35
+310            android:exported="false" >
+310-->[com.google.firebase:firebase-ml-natural-language-smart-reply-model:19.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3067a53bfbd2673bf1ad8e58ae1bd089\transformed\jetified-firebase-ml-natural-language-smart-reply-model-19.0.0\AndroidManifest.xml:26:13-37
+311            <intent-filter>
+311-->[com.google.firebase:firebase-ml-natural-language-smart-reply-model:19.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3067a53bfbd2673bf1ad8e58ae1bd089\transformed\jetified-firebase-ml-natural-language-smart-reply-model-19.0.0\AndroidManifest.xml:27:13-31:29
+312                <action android:name="com.google.android.gms.predictondevice.service.START" />
+312-->[com.google.firebase:firebase-ml-natural-language-smart-reply-model:19.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3067a53bfbd2673bf1ad8e58ae1bd089\transformed\jetified-firebase-ml-natural-language-smart-reply-model-19.0.0\AndroidManifest.xml:28:17-95
+312-->[com.google.firebase:firebase-ml-natural-language-smart-reply-model:19.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3067a53bfbd2673bf1ad8e58ae1bd089\transformed\jetified-firebase-ml-natural-language-smart-reply-model-19.0.0\AndroidManifest.xml:28:25-92
+313
+314                <category android:name="android.intent.category.DEFAULT" />
+314-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:17-75
+314-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:27-73
+315            </intent-filter>
+316        </service>
+317
+318        <receiver
+318-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5739e8770cdb51d23f29034bb65cbfdf\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:29:9-33:20
+319            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+319-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5739e8770cdb51d23f29034bb65cbfdf\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:30:13-85
+320            android:enabled="true"
+320-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5739e8770cdb51d23f29034bb65cbfdf\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:31:13-35
+321            android:exported="false" >
+321-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5739e8770cdb51d23f29034bb65cbfdf\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:32:13-37
+322        </receiver>
+323
+324        <service
+324-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5739e8770cdb51d23f29034bb65cbfdf\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:35:9-38:40
+325            android:name="com.google.android.gms.measurement.AppMeasurementService"
+325-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5739e8770cdb51d23f29034bb65cbfdf\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:36:13-84
+326            android:enabled="true"
+326-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5739e8770cdb51d23f29034bb65cbfdf\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:37:13-35
+327            android:exported="false" />
+327-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5739e8770cdb51d23f29034bb65cbfdf\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:38:13-37
+328        <service
+328-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5739e8770cdb51d23f29034bb65cbfdf\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:39:9-43:72
+329            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+329-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5739e8770cdb51d23f29034bb65cbfdf\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:40:13-87
+330            android:enabled="true"
+330-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5739e8770cdb51d23f29034bb65cbfdf\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:41:13-35
+331            android:exported="false"
+331-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5739e8770cdb51d23f29034bb65cbfdf\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:42:13-37
+332            android:permission="android.permission.BIND_JOB_SERVICE" />
+332-->[com.google.android.gms:play-services-measurement:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5739e8770cdb51d23f29034bb65cbfdf\transformed\jetified-play-services-measurement-20.0.0\AndroidManifest.xml:43:13-69
+333        <service
+333-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\17ea0208a409c2cef3c1383ef377c052\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:27:9-33:19
+334            android:name="com.google.firebase.components.ComponentDiscoveryService"
+334-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\17ea0208a409c2cef3c1383ef377c052\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:28:13-84
+335            android:directBootAware="true"
+335-->[com.google.firebase:firebase-common:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fd19692fa4a0bd77f03e805eca5481e4\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+336            android:exported="false" >
+336-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\17ea0208a409c2cef3c1383ef377c052\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:29:13-37
+337            <meta-data
+337-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\17ea0208a409c2cef3c1383ef377c052\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:30:13-32:85
+338                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+338-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\17ea0208a409c2cef3c1383ef377c052\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:31:17-139
+339                android:value="com.google.firebase.components.ComponentRegistrar" />
+339-->[com.google.android.gms:play-services-measurement-api:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\17ea0208a409c2cef3c1383ef377c052\transformed\jetified-play-services-measurement-api-20.0.0\AndroidManifest.xml:32:17-82
+340            <meta-data
+340-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+341                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+341-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+342                android:value="com.google.firebase.components.ComponentRegistrar" />
+342-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+343            <meta-data
+343-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3c25e26ec48dec386988d4cb11343d89\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:20:13-22:85
+344                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+344-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3c25e26ec48dec386988d4cb11343d89\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:21:17-111
+345                android:value="com.google.firebase.components.ComponentRegistrar" />
+345-->[com.google.firebase:firebase-firestore:24.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3c25e26ec48dec386988d4cb11343d89\transformed\jetified-firebase-firestore-24.0.0\AndroidManifest.xml:22:17-82
+346            <meta-data
+346-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3366c8591bc8aa85e320481691cf3a3f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:52:13-54:85
+347                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+347-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3366c8591bc8aa85e320481691cf3a3f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:53:17-119
+348                android:value="com.google.firebase.components.ComponentRegistrar" />
+348-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3366c8591bc8aa85e320481691cf3a3f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:54:17-82
+349            <meta-data
+349-->[com.google.firebase:firebase-database-ktx:20.0.3] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\02b3f586ee2d1229777a1dbbacfe8194\transformed\jetified-firebase-database-ktx-20.0.3\AndroidManifest.xml:15:13-17:85
+350                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+350-->[com.google.firebase:firebase-database-ktx:20.0.3] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\02b3f586ee2d1229777a1dbbacfe8194\transformed\jetified-firebase-database-ktx-20.0.3\AndroidManifest.xml:16:17-124
+351                android:value="com.google.firebase.components.ComponentRegistrar" />
+351-->[com.google.firebase:firebase-database-ktx:20.0.3] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\02b3f586ee2d1229777a1dbbacfe8194\transformed\jetified-firebase-database-ktx-20.0.3\AndroidManifest.xml:17:17-82
+352            <meta-data
+352-->[com.google.firebase:firebase-database:20.0.3] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d69f8a9d4e7bf1d98abac5a4a9e5de7\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:32:13-34:85
+353                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+353-->[com.google.firebase:firebase-database:20.0.3] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d69f8a9d4e7bf1d98abac5a4a9e5de7\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:33:17-109
+354                android:value="com.google.firebase.components.ComponentRegistrar" />
+354-->[com.google.firebase:firebase-database:20.0.3] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5d69f8a9d4e7bf1d98abac5a4a9e5de7\transformed\jetified-firebase-database-20.0.3\AndroidManifest.xml:34:17-82
+355            <meta-data
+355-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9116960c8fabf12ccd86d75b91bf22eb\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+356                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+356-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9116960c8fabf12ccd86d75b91bf22eb\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+357                android:value="com.google.firebase.components.ComponentRegistrar" />
+357-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9116960c8fabf12ccd86d75b91bf22eb\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+358            <meta-data
+358-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\22975fdafa7e71a2a5f23f35bf1b6bd5\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+359                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+359-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\22975fdafa7e71a2a5f23f35bf1b6bd5\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+360                android:value="com.google.firebase.components.ComponentRegistrar" />
+360-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\22975fdafa7e71a2a5f23f35bf1b6bd5\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+361            <meta-data
+361-->[com.google.firebase:firebase-config:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5af42bf1519847bc0ef62adf254df965\transformed\jetified-firebase-config-21.0.1\AndroidManifest.xml:32:13-34:85
+362                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+362-->[com.google.firebase:firebase-config:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5af42bf1519847bc0ef62adf254df965\transformed\jetified-firebase-config-21.0.1\AndroidManifest.xml:33:17-117
+363                android:value="com.google.firebase.components.ComponentRegistrar" />
+363-->[com.google.firebase:firebase-config:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\5af42bf1519847bc0ef62adf254df965\transformed\jetified-firebase-config-21.0.1\AndroidManifest.xml:34:17-82
+364            <meta-data
+364-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\46e6ac4c8b1421a91fa40440efeb0cfe\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:15:13-17:85
+365                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+365-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\46e6ac4c8b1421a91fa40440efeb0cfe\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:16:17-113
+366                android:value="com.google.firebase.components.ComponentRegistrar" />
+366-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\46e6ac4c8b1421a91fa40440efeb0cfe\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:17:17-82
+367            <meta-data
+367-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\bc3b727048c88caa298e34380ce3fcdb\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+368                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+368-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\bc3b727048c88caa298e34380ce3fcdb\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+369                android:value="com.google.firebase.components.ComponentRegistrar" />
+369-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\bc3b727048c88caa298e34380ce3fcdb\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+370            <meta-data
+370-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a366175c08c1770f0758c83a767b10c2\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+371                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+371-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a366175c08c1770f0758c83a767b10c2\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+372                android:value="com.google.firebase.components.ComponentRegistrar" />
+372-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a366175c08c1770f0758c83a767b10c2\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+373            <meta-data
+373-->[com.google.firebase:firebase-abt:21.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2fc1b0ac6e49f0edcda192b2f95fc1b4\transformed\jetified-firebase-abt-21.0.0\AndroidManifest.xml:13:13-15:85
+374                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+374-->[com.google.firebase:firebase-abt:21.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2fc1b0ac6e49f0edcda192b2f95fc1b4\transformed\jetified-firebase-abt-21.0.0\AndroidManifest.xml:14:17-109
+375                android:value="com.google.firebase.components.ComponentRegistrar" />
+375-->[com.google.firebase:firebase-abt:21.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\2fc1b0ac6e49f0edcda192b2f95fc1b4\transformed\jetified-firebase-abt-21.0.0\AndroidManifest.xml:15:17-82
+376        </service>
+377
+378        <activity
+378-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+379            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+379-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+380            android:excludeFromRecents="true"
+380-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+381            android:exported="true"
+381-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+382            android:launchMode="singleTask"
+382-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+383            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+383-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+384            <intent-filter>
+384-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+385                <action android:name="android.intent.action.VIEW" />
+385-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+385-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+386
+387                <category android:name="android.intent.category.DEFAULT" />
+387-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:17-75
+387-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:27-73
+388                <category android:name="android.intent.category.BROWSABLE" />
+388-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+388-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+389
+390                <data
+390-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:17-54
+391                    android:host="firebase.auth"
+392                    android:path="/"
+393                    android:scheme="genericidp" />
+394            </intent-filter>
+395        </activity>
+396        <activity
+396-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+397            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+397-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+398            android:excludeFromRecents="true"
+398-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+399            android:exported="true"
+399-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+400            android:launchMode="singleTask"
+400-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+401            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+401-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+402            <intent-filter>
+402-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+403                <action android:name="android.intent.action.VIEW" />
+403-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+403-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+404
+405                <category android:name="android.intent.category.DEFAULT" />
+405-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:17-75
+405-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:27-73
+406                <category android:name="android.intent.category.BROWSABLE" />
+406-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+406-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+407
+408                <data
+408-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:80:17-54
+409                    android:host="firebase.auth"
+410                    android:path="/"
+411                    android:scheme="recaptcha" />
+412            </intent-filter>
+413        </activity>
+414
+415        <service
+415-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+416            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+416-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+417            android:enabled="true"
+417-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+418            android:exported="false" >
+418-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+419            <intent-filter>
+419-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+420                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+420-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+420-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1bdf77e0c614468a6180a65d57802407\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+421
+422                <category android:name="android.intent.category.DEFAULT" />
+422-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:17-75
+422-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:78:27-73
+423            </intent-filter>
+424        </service>
+425
+426        <receiver
+426-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3366c8591bc8aa85e320481691cf3a3f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:28:9-35:20
+427            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+427-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3366c8591bc8aa85e320481691cf3a3f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:29:13-78
+428            android:exported="true"
+428-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3366c8591bc8aa85e320481691cf3a3f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:30:13-36
+429            android:permission="com.google.android.c2dm.permission.SEND" >
+429-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3366c8591bc8aa85e320481691cf3a3f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:31:13-73
+430            <intent-filter>
+430-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3366c8591bc8aa85e320481691cf3a3f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:32:13-34:29
+431                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+431-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3366c8591bc8aa85e320481691cf3a3f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:33:17-81
+431-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3366c8591bc8aa85e320481691cf3a3f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:33:25-78
+432            </intent-filter>
+433        </receiver>
+434        <!--
+435             FirebaseMessagingService performs security checks at runtime,
+436             but set to not exported to explicitly avoid allowing another app to call it.
+437        -->
+438        <service
+438-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3366c8591bc8aa85e320481691cf3a3f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:41:9-48:19
+439            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+439-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3366c8591bc8aa85e320481691cf3a3f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:42:13-82
+440            android:directBootAware="true"
+440-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3366c8591bc8aa85e320481691cf3a3f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:43:13-43
+441            android:exported="false" >
+441-->[com.google.firebase:firebase-messaging:23.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\3366c8591bc8aa85e320481691cf3a3f\transformed\jetified-firebase-messaging-23.0.0\AndroidManifest.xml:44:13-37
+442            <intent-filter android:priority="-500" >
+442-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:164:13-166:29
+443                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+443-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:165:17-77
+443-->C:\Users\yekut_hqh3zdc\IntelliJIDEAProjects\Talkufy-Android\app\src\main\AndroidManifest.xml:165:25-75
+444            </intent-filter>
+445        </service>
+446
+447        <activity
+447-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a9e82a381d575b84cc74370483224bd7\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+448            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+448-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a9e82a381d575b84cc74370483224bd7\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+449            android:excludeFromRecents="true"
+449-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a9e82a381d575b84cc74370483224bd7\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+450            android:exported="false"
+450-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a9e82a381d575b84cc74370483224bd7\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+451            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+451-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a9e82a381d575b84cc74370483224bd7\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+452        <!--
+453            Service handling Google Sign-In user revocation. For apps that do not integrate with
+454            Google Sign-In, this service will never be started.
+455        -->
+456        <service
+456-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a9e82a381d575b84cc74370483224bd7\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+457            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+457-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a9e82a381d575b84cc74370483224bd7\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+458            android:exported="true"
+458-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a9e82a381d575b84cc74370483224bd7\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+459            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+459-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\a9e82a381d575b84cc74370483224bd7\transformed\jetified-play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+460
+461        <activity
+461-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9adc4f147f902adc589bebdf682cdd8d\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+462            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+462-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9adc4f147f902adc589bebdf682cdd8d\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+463            android:exported="false"
+463-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9adc4f147f902adc589bebdf682cdd8d\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+464            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+464-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\9adc4f147f902adc589bebdf682cdd8d\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+465
+466        <provider
+466-->[com.google.firebase:firebase-common:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fd19692fa4a0bd77f03e805eca5481e4\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+467            android:name="com.google.firebase.provider.FirebaseInitProvider"
+467-->[com.google.firebase:firebase-common:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fd19692fa4a0bd77f03e805eca5481e4\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+468            android:authorities="ca.scooter.talkufy.firebaseinitprovider"
+468-->[com.google.firebase:firebase-common:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fd19692fa4a0bd77f03e805eca5481e4\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+469            android:directBootAware="true"
+469-->[com.google.firebase:firebase-common:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fd19692fa4a0bd77f03e805eca5481e4\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+470            android:exported="false"
+470-->[com.google.firebase:firebase-common:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fd19692fa4a0bd77f03e805eca5481e4\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+471            android:initOrder="100" />
+471-->[com.google.firebase:firebase-common:20.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fd19692fa4a0bd77f03e805eca5481e4\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+472
+473        <meta-data
+473-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\315533c2664f4154a8454466c53ed7d4\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+474            android:name="com.google.android.gms.version"
+474-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\315533c2664f4154a8454466c53ed7d4\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+475            android:value="@integer/google_play_services_version" />
+475-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\315533c2664f4154a8454466c53ed7d4\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+476
+477        <uses-library
+477-->[androidx.window:window:1.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\8278ea4a9a48c4fd321227cb67d7fa66\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+478            android:name="androidx.window.extensions"
+478-->[androidx.window:window:1.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\8278ea4a9a48c4fd321227cb67d7fa66\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+479            android:required="false" />
+479-->[androidx.window:window:1.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\8278ea4a9a48c4fd321227cb67d7fa66\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+480        <uses-library
+480-->[androidx.window:window:1.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\8278ea4a9a48c4fd321227cb67d7fa66\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+481            android:name="androidx.window.sidecar"
+481-->[androidx.window:window:1.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\8278ea4a9a48c4fd321227cb67d7fa66\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+482            android:required="false" />
+482-->[androidx.window:window:1.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\8278ea4a9a48c4fd321227cb67d7fa66\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+483
+484        <provider
+484-->[com.squareup.picasso:picasso:2.71828] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\43309a4764337c1e2251e3f252b5e64f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+485            android:name="com.squareup.picasso.PicassoProvider"
+485-->[com.squareup.picasso:picasso:2.71828] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\43309a4764337c1e2251e3f252b5e64f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+486            android:authorities="ca.scooter.talkufy.com.squareup.picasso"
+486-->[com.squareup.picasso:picasso:2.71828] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\43309a4764337c1e2251e3f252b5e64f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+487            android:exported="false" />
+487-->[com.squareup.picasso:picasso:2.71828] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\43309a4764337c1e2251e3f252b5e64f\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+488
+489        <service
+489-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\f46b8bd3d6c5b47e05979d266b0d844a\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+490            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+490-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\f46b8bd3d6c5b47e05979d266b0d844a\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+491            android:exported="false" >
+491-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\f46b8bd3d6c5b47e05979d266b0d844a\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+492            <meta-data
+492-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\f46b8bd3d6c5b47e05979d266b0d844a\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+493                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+493-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\f46b8bd3d6c5b47e05979d266b0d844a\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+494                android:value="cct" />
+494-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\f46b8bd3d6c5b47e05979d266b0d844a\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+495        </service>
+496
+497        <provider
+497-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\84a2f75564fcec3dd5fb4ab22d6c2238\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+498            android:name="androidx.startup.InitializationProvider"
+498-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\84a2f75564fcec3dd5fb4ab22d6c2238\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+499            android:authorities="ca.scooter.talkufy.androidx-startup"
+499-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\84a2f75564fcec3dd5fb4ab22d6c2238\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+500            android:exported="false" >
+500-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\84a2f75564fcec3dd5fb4ab22d6c2238\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+501            <meta-data
+501-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\84a2f75564fcec3dd5fb4ab22d6c2238\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+502                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+502-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\84a2f75564fcec3dd5fb4ab22d6c2238\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+503                android:value="androidx.startup" />
+503-->[androidx.emoji2:emoji2:1.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\84a2f75564fcec3dd5fb4ab22d6c2238\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+504            <meta-data
+504-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1d7f3dddf3c4d73d07f5afb98bf9bbc5\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+505                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+505-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1d7f3dddf3c4d73d07f5afb98bf9bbc5\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+506                android:value="androidx.startup" />
+506-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\1d7f3dddf3c4d73d07f5afb98bf9bbc5\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+507        </provider>
+508
+509        <service
+509-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fa648ed674d3dd96db42b6e342a88446\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+510            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+510-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fa648ed674d3dd96db42b6e342a88446\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+511            android:exported="false"
+511-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fa648ed674d3dd96db42b6e342a88446\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+512            android:permission="android.permission.BIND_JOB_SERVICE" >
+512-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fa648ed674d3dd96db42b6e342a88446\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+513        </service>
+514
+515        <receiver
+515-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fa648ed674d3dd96db42b6e342a88446\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+516            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+516-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fa648ed674d3dd96db42b6e342a88446\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+517            android:exported="false" />
+517-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\yekut_hqh3zdc\.gradle\caches\transforms-3\fa648ed674d3dd96db42b6e342a88446\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+518    </application>
+519
+520</manifest>
